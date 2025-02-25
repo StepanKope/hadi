@@ -1,0 +1,22 @@
+/* Flexbox pro uspořádání textu a obrázku vedle sebe */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text {
+    width: 70%; /* Text zabírá 70% šířky */
+    margin-right: 20px;
+}
+
+.obrazek {
+    width: 30%; /* Obrázek zabírá 30% šířky */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
