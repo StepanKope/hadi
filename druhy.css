@@ -1,0 +1,29 @@
+/* Flexbox pro uspořádání textu a obrázku vedle sebe */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mutation {
+    width: 48%; /* Každá mutace zabere 48% šířky (aby se vešly dvě vedle sebe) */
+    margin-bottom: 20px;
+}
+
+.mutation img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
