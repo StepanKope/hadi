@@ -20,7 +20,7 @@ header {
 /* Obrázek hada v panelu */
 header::before {
     content: "";
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/612/157/115/5c1c98e7ded20-wallpaper-preview.jpg'); /* Zde vložte URL obrázku hada */
+    background-image: url('https://images.pexels.com/photos/12932963/pexels-photo-12932963.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Zde vložte URL obrázku hada */
     background-size: cover;
     background-position: center;
     position: absolute;
