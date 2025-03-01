@@ -8,6 +8,90 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="uzovky.css">
     <style>
+        /* Základní nastavení pro celé tělo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Hlavní nadpis */
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #3e3e3e;
+            margin-top: 20px;
+        }
+
+        /* Navigační menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sekce s mutacemi */
+        .mutations-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        /* Mutace */
+        .mutation {
+            width: 45%;
+            margin: 10px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .mutation h3 {
+            color: #333;
+            font-size: 1.8em;
+        }
+
+        .mutation p {
+            font-size: 1.1em;
+            color: #666;
+            margin: 10px 0;
+        }
+
+        .mutation img {
+            max-width: 100%;
+            border-radius: 8px;
+            height: auto;
+        }
+
+        /* Patička */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -23,7 +107,7 @@
     </header>
 
     <section>
-        <h2>Mutace užovek</h2>
+        <h2 style="text-align: center; font-size: 2em; margin-top: 30px;">Mutace užovek</h2>
         <div class="mutations-container">
             <div class="mutation">
                 <h3>Snow</h3>
@@ -53,4 +137,5 @@
     </footer>
 </body>
 </html>
+
 
