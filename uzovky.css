@@ -24,8 +24,8 @@ footer p {
 }
 
 .mutation {
-    flex: 1 1 45%; /* Nastaví, že každá mutace zabere 45% šířky kontejneru */
-    margin: 10px;
+    flex: 1 1 50%; /* Nastaví, že každá mutace zabere 45% šířky kontejneru */
+    margin: 20px;
     box-sizing: border-box;
     text-align: center;
 }
