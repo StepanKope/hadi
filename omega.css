@@ -20,3 +20,20 @@ img {
     height: auto;
     border-radius: 10px;
 }
+        /* Nastavení velikosti písma pro celou stránku */
+        body {
+            font-size: 18px; /* Změní velikost textu pro celý dokument */
+        }
+
+        /* Možné přizpůsobení pro různé elementy */
+        h1, h2, p {
+            font-size: 1.2em; /* Tato hodnota může být větší, např. 1.5em pro větší nadpisy */
+        }
+
+        a {
+            font-size: 1.1em; /* Velikost textu pro odkazy */
+        }
+
+        footer p {
+            font-size: 1em; /* Velikost textu v patičce */
+        }

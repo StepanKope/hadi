@@ -27,3 +27,19 @@ footer {
     padding: 10px;
     background-color: #f1f1f1;
 }
+        /* Nastavení velikosti písma pro celý dokument */
+        body {
+            font-size: 18px; /* Nastaví velikost textu pro celé tělo stránky */
+        }
+
+        h1, h2, h3, p {
+            font-size: 1.2em; /* Velikost nadpisů a textu */
+        }
+
+        a {
+            font-size: 1.1em; /* Velikost textu pro odkazy */
+        }
+
+        footer p {
+            font-size: 1.1em; /* Velikost textu v patičce */
+        }
