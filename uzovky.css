@@ -28,4 +28,46 @@ img {
         grid-template-columns: 1fr;
     }
 }
+/* Nastavení velikosti písma pro celý dokument */
+body {
+    font-size: 18px; /* Nastaví velikost textu pro celé tělo stránky */
+}
+
+h1, h2, h3, p {
+    font-size: 1.2em; /* Velikost nadpisů a textu */
+}
+
+a {
+    font-size: 1.1em; /* Velikost textu pro odkazy */
+}
+
+footer p {
+    font-size: 1.1em; /* Velikost textu v patičce */
+}
+
+/* Flexbox pro mutace */
+.mutations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mutation {
+    flex: 1 1 45%; /* Nastaví, že každá mutace zabere 45% šířky kontejneru */
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.mutation img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Zajištění, že na mobilních zařízeních budou mutace pod sebou */
+@media (max-width: 768px) {
+    .mutation {
+        flex: 1 1 100%; /* Na menších obrazovkách mutace zabírají 100% šířky */
+    }
+}
 
